@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- CINDERWHITE snowman favicon: three snow balls, coal eyes, a carrot, a little hat. Transparent background. -->
+  <g stroke="#2b2f36" stroke-width="2.6" stroke-linejoin="round">
+    <circle cx="32" cy="48" r="15" fill="#f4f8fc"/>
+    <circle cx="32" cy="31" r="11.5" fill="#f4f8fc"/>
+    <circle cx="32" cy="16.5" r="9.5" fill="#f4f8fc"/>
+  </g>
+  <g fill="#1d2127">
+    <circle cx="28.4" cy="14.8" r="1.7"/><circle cx="35.6" cy="14.8" r="1.7"/>
+    <circle cx="32" cy="29" r="1.5"/><circle cx="32" cy="35" r="1.5"/><circle cx="32" cy="43" r="1.6"/>
+  </g>
+  <polygon points="31,17 43,19.4 31,21.8" fill="#f2752b" stroke="#2b2f36" stroke-width="1.5" stroke-linejoin="round"/>
+  <g fill="#2b2f36" stroke="#2b2f36" stroke-width="1" stroke-linejoin="round">
+    <rect x="20.5" y="6.8" width="23" height="3" rx="1.2"/>
+    <path d="M25 6.8 V2.6 Q25 1 26.6 1 L37.4 1 Q39 1 39 2.6 V6.8 Z"/>
+  </g>
+</svg>

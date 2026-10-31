@@ -1,0 +1,144 @@
+Third-party 3D assets used in snowshooter
+==========================================
+
+All files below are CC0 1.0 Universal (public domain dedication).
+https://creativecommons.org/publicdomain/zero/1.0/
+Attribution is not required but is given here as a courtesy.
+
+rocks/stone-large-a.glb   <- Models/GLTF format/stone_largeA.glb
+rocks/stone-large-d.glb   <- Models/GLTF format/stone_largeD.glb
+rocks/stone-large-f.glb   <- Models/GLTF format/stone_largeF.glb
+rocks/stone-tall-a.glb    <- Models/GLTF format/stone_tallA.glb
+rocks/stone-tall-b.glb    <- Models/GLTF format/stone_tallB.glb
+rocks/stone-tall-h.glb    <- Models/GLTF format/stone_tallH.glb
+  Source:  Nature Kit (2.1), https://kenney.nl/assets/nature-kit
+  Author:  Kenney (www.kenney.nl)
+  License: CC0 1.0
+  Notes:   Unmodified, only renamed.
+
+weapons/blaster-g.glb     <- Models/GLB format/blaster-g.glb
+weapons/blaster-j.glb     <- Models/GLB format/blaster-j.glb
+weapons/blaster-l.glb     <- Models/GLB format/blaster-l.glb
+  Source:  Blaster Kit (2.1), https://kenney.nl/assets/blaster-kit
+  Author:  Kenney (www.kenney.nl)
+  License: CC0 1.0
+  Notes:   The shared Textures/colormap.png texture was embedded into each
+           GLB, so each file is self-contained. Geometry is unchanged.
+snow-diff.jpg, snow-nor_gl.jpg, snow-rough.jpg - "Snow 02" by Poly Haven (https://polyhaven.com/a/snow_02), CC0
+rock-boulder-dry-*.jpg - "Rock Boulder Dry" by Poly Haven (https://polyhaven.com/a/rock_boulder_dry), CC0
+rock-wall-08-*.jpg - "Rock Wall 08" by Poly Haven (https://polyhaven.com/a/rock_wall_08), CC0
+satara-night-1k.hdr - "Satara Night" HDRI by Poly Haven (https://polyhaven.com/a/satara_night), CC0
+moon.jpg - three.js examples textures/planets/moon_1024.jpg (https://github.com/mrdoob/three.js), MIT
+snowflake-atlas.png - 16 snow-crystal micrographs by Wilson A. Bentley (1865-1931), public domain, via Wikimedia Commons: "Bentley Snowflake{1,3,4,5,6,8,9,10,11,12,13,14,15,17,18,19}.jpg" (e.g. https://upload.wikimedia.org/wikipedia/commons/7/78/Bentley_Snowflake1.jpg; https://commons.wikimedia.org/wiki/File:Bentley_Snowflake1.jpg). Cropped, luminance-to-alpha, packed 4x4 at 256 px/cell.
+meadow-grass-diff.jpg, meadow-grass-nor_gl.jpg - "Grass Ground" by Poly Haven (https://polyhaven.com/a/grass_ground), CC0 (1k, recompressed)
+cliff-side-*.jpg - "Cliff Side" by Poly Haven (https://polyhaven.com/a/cliff_side), CC0
+weapons/flamethrower.glb - "FLAMETHROWER PBR(UNITY) CC0" by Lucian Pavel (https://opengameart.org/content/flamethrower-pbrunity-cc0), CC0. Converted from FBX to GLB, textures resized to 1024 and packed to glTF ORM; rescaled to ~1.2 m, nozzle rotated to -Z.
+
+Third-party audio used in snowshooter (assets/audio/*.mp3)
+===========================================================
+All sources are CC0 1.0 or public domain. Every file was converted to mono
+80 kbps MP3 with ffmpeg, trimmed, peak-normalised and (for *-loop files)
+cross-faded into a seamless loop; some were filtered (high/low-pass).
+
+Kenney (www.kenney.nl), CC0 1.0:
+  step-snow-1..5.mp3   <- Impact Sounds (1.0) footstep_snow_000..004.ogg   https://kenney.nl/assets/impact-sounds
+  shovel-crunch-1..4.mp3 <- Impact Sounds footstep_snow_000..003.ogg      https://kenney.nl/assets/impact-sounds
+  shovel-thump-1..3.mp3  <- Impact Sounds impactSoft_heavy_000/002/004.ogg
+  shovel-chip-1..3.mp3   <- Impact Sounds impactMining_000..002.ogg
+  shovel-clank-1..3.mp3  <- Impact Sounds impactPlate_light_000..002.ogg
+  shovel-clunk-1..2.mp3  <- Impact Sounds impactTin_medium_000..001.ogg
+  shovel-hit-1..2.mp3    <- Impact Sounds impactPunch_medium_000..001.ogg
+                          (shovel-*: silence-trimmed, loudness-normalised, mono 80 kbps mp3)
+  step-rock-1..4.mp3   <- Impact Sounds footstep_concrete_000..003.ogg
+  land-1..3.mp3        <- Impact Sounds impactSoft_heavy_000..002.ogg
+  click.mp3            <- RPG Audio (1.0) metalClick.ogg                   https://kenney.nl/assets/rpg-audio
+
+OpenGameArt.org, CC0 1.0:
+  wind-gust-loop.mp3   <- "wind whoosh loop" by sketchman3           https://opengameart.org/content/wind-whoosh-loop
+  fire-loop.mp3        <- "Fireplace Sound loop" by pagdev           https://opengameart.org/content/fireplace-sound-loop
+  fire-crackle-loop.mp3<- "Fire Crackling" by AntumDeluge            https://opengameart.org/content/fire-crackling
+  flame-jet-loop.mp3   <- "Compressed Gas Leak SFX" by 0new4y        https://opengameart.org/content/compressed-gas-leak-sfx
+  boil-loop.mp3        <- "boiling water loops" by tinyworlds        https://opengameart.org/content/boiling-water-loops
+  bubbles-loop.mp3, bubble-1..3.mp3, splash-1.mp3, splash-2.mp3
+                       <- "40 CC0 water / splash / slime SFX" by rubberduck  https://opengameart.org/content/40-cc0-water-splash-slime-sfx
+  step-water-3.mp3, step-water-4.mp3
+                       <- "100 CC0 SFX" by rubberduck (splash_01/02)  https://opengameart.org/content/100-cc0-sfx
+  breath.mp3           <- "80 CC0 creature SFX" by rubberduck (breath.ogg)  https://opengameart.org/content/80-cc0-creature-sfx
+  alarm.mp3            <- "30 CC0 SFX loops" by rubberduck (alarm_02)  https://opengameart.org/content/30-cc0-sfx-loops
+  underwater-loop.mp3  <- "Bubble Sound Effects" by bmaczero (bubbles-loop1-amp.wav, low-passed)  https://opengameart.org/content/bubble-sound-effects
+  step-water-1..2.mp3, splash-3.mp3
+                       <- "6 Short water splashes" by ezwa           https://opengameart.org/content/6-short-water-splashes
+  heartbeat.mp3        <- "Heartbeat sounds" by bart (heartbeat_slow, one beat)  https://opengameart.org/content/heartbeat-sounds
+  sizzle-1..3.mp3, steam-vent.mp3
+                       <- "Steam release sounds" by bart              https://opengameart.org/content/steam-release-sounds
+  whoosh.mp3           <- "Air whoosh" by PyranoStudios (first whoosh)  https://opengameart.org/content/air-whoosh
+  hurt-1..4.mp3        <- "grunts of male death and pain" by TheBardofBlasphemy  https://opengameart.org/content/grunts-male-death-and-pain
+  hurt-5..6.mp3        <- "Man hurt sounds" by aharabada              https://opengameart.org/content/man-hurt-sounds
+  gameover.mp3         <- "Game Over" by GreyFrogGames (gameover.wav)  https://opengameart.org/content/game-over-10
+
+Wikimedia Commons:
+  wind-loop.mp3        <- "Howling wind.ogg" by Tvabutzku1234, CC0 1.0 (30 s excerpt)
+                          https://commons.wikimedia.org/wiki/File:Howling_wind.ogg
+  gasp.mp3             <- "Heavy breathing 3.ogg" by ezwa, public domain (2.6 s excerpt)
+                          https://commons.wikimedia.org/wiki/File:Heavy_breathing_3.ogg
+
+The convolution reverb impulse response and the synthesised fallback sounds in audio.js are generated at runtime.
+
+player/adventurer.glb     <- "Adventurer" (Ultimate Modular Men Pack), https://poly.pizza/m/5EGWBMpuXq
+  Author:  Quaternius (quaternius.com)
+  License: CC0 1.0
+  Notes:   Unmodified file; recoloured/fabric-shaded at runtime in body.js.
+
+glove-leather-diff.jpg, glove-leather-nor_gl.jpg, glove-leather-rough.jpg
+  <- brown_leather (1k jpg: albedo, nor_gl, rough)
+  Source:  Poly Haven, https://polyhaven.com/a/brown_leather
+  License: CC0 1.0
+  Notes:   Used (tinted dark) for the first-person winter gloves.
+
+Size optimizations (2026-10-23, content unchanged, still CC0): Poly Haven normal maps
+(*-nor_gl.jpg) and glove-leather-rough.jpg downscaled 1k -> 512; other 1k jpgs re-encoded at
+quality ~80; satara-night-1k.hdr downscaled to 512x256 (used only for PMREM env lighting);
+adventurer.glb deduped/pruned/resampled/quantized (KHR_mesh_quantization); flamethrower.glb
+normal+ORM textures downscaled to 512 and quantized.
+
+shovel-metal-diff.jpg, shovel-metal-nor_gl.jpg, shovel-metal-rough.jpg
+  <- Metal049A (1K-JPG: Color, NormalGL, Roughness), downscaled to 512
+  Source:  ambientCG (Lennart Demes), https://ambientcg.com/view?id=Metal049A
+  License: CC0 1.0
+  Notes:   Shovel blade (procedural mesh in shovel.js).
+
+shovel-wood-diff.jpg, shovel-wood-nor_gl.jpg, shovel-wood-rough.jpg
+  <- fine_grained_wood (1k jpg: col, nor_gl, rough), downscaled to 512
+  Source:  Poly Haven, https://polyhaven.com/a/fine_grained_wood
+  License: CC0 1.0
+  Notes:   Shovel shaft.
+
+Third-party code bundled into main.js
+=====================================
+
+fflate 0.8.3 (gzip / gunzip of the save game, src/savecodec.ts)
+  Source:  https://github.com/101arrowz/fflate
+  Author:  Arjun Barrett
+  License: MIT, full text:
+
+  MIT License
+
+  Copyright (c) 2026 Arjun Barrett
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.

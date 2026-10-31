@@ -1,0 +1,18 @@
+Copyright (c) 2026 Jussi Rantala. All rights reserved.
+
+This repository and its contents (source code, build output, documentation and
+original assets) are proprietary. No license is granted. You may not use, copy,
+modify, merge, publish, distribute, sublicense, sell, or create derivative works
+from any part of it, in whole or in part, for any purpose, without prior written
+permission from the copyright holder.
+
+The only exception is what the GitHub Terms of Service require for public
+repositories: viewing the repository on GitHub and forking it within GitHub.
+Playing the hosted game at https://jussirantala.github.io/snowshooter/ is
+permitted for personal, non-commercial use.
+
+Third-party assets in assets/ remain under their own licenses (CC0, public
+domain, CC-BY, MIT) as listed in assets/credits.txt; this notice does not
+restrict rights you already have to those assets from their original sources.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
